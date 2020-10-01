@@ -38,6 +38,7 @@ RUN apt-get install -y wine32
 RUN apt-get install -y wordlists
 RUN apt-get install -y xxd
 RUN apt-get install -y zsh
+RUN apt-get install -y gcc-multilib g++-multilib
 
 RUN apt-get autoremove -y
 
